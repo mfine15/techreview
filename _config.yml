@@ -2,9 +2,7 @@ title: HARVARD TECH REVIEW
 author: GitHub User
 email: your-email@domain.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ Harvard Tech Review in-progress site.
 
 # social links
 twitter_username: jekyllrb

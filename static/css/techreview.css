@@ -11,3 +11,19 @@
   --lightgray: #E6E6E6;
   --darkblue: #00133E;
 }
+
+.jumbotron.bg-scale {
+    background-image: url(../images/scale.jpg);
+}
+
+.jumbotron.bg-flow {
+    background-image: url(../images/flow.jpg);
+}
+
+.site-title {
+	font-family: sans-serif;
+}
+
+.svg-icon {
+	padding: 0;
+}

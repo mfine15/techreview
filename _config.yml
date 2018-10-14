@@ -1,17 +1,16 @@
-title: HARVARD TECH REVIEW
-author: GitHub User
-email: your-email@domain.com
+title: Harvard Tech Review
+author: Contact Us
+email: contact@harvardtechreview.com
 description: > # this means to ignore newlines until "twitter_username:"
- Harvard Tech Review in-progress site.
 
 # social links
-twitter_username: jekyllrb
-github_username: jekyll
-rss: rss
+twitter_username: harvardtechreview
+# github_username: jekyll
+# rss: rss
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: harvardtechreview
 # flickr_username: jekyll
-# instagram_username: jekyll
+instagram_username: harvardtechreview
 # linkedin_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll

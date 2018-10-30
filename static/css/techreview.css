@@ -27,3 +27,13 @@
 .svg-icon {
 	padding: 0;
 }
+
+.wrapper {
+	/*margin: 0;
+	padding: 0;*/
+/*	max-width: 80%;
+*/}
+
+.article-title {
+	font-size: 80%;
+}

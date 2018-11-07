@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
-categories: junk
-author: "Bart Simpson"
+title: "Request for Proposal: Let's Change Gov Tech Procurement"
+categories: article
+author: "Austin Hwang"
 meta: "Springfield"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+This piece will dive into the why government tech procurement seems to be exponentially outpaced by the rate of innovation. In particular, we'll examine the complicated history of the RFP process and how it took such a stranglehold within the government. We'll close by providing our thoughts on some of the current solutions that different governmental departments are exploring, looping in many prominent thought leaders into our discussion.
 
 ## Some great heading (h2)
 

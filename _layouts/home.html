@@ -6,23 +6,22 @@ layout: default
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/bootstrap.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/techreview.css" />
+  <link rel="stylesheet" href="{{ "static/css/bootsrap.css" | prepend: site.baseurl}}"/>
+  <link rel="stylesheet" href="{{ "static/css/techreview.css" | prepend: site.baseurl}}"/>
 
   <div class="container theme">
-    <div class="jumbotron bg-scale p-3 p-md-5 text-white rounded background-image">
+    <div class="jumbotron bg-infrastructure p-3 p-md-5 text-white rounded background-image">
       <div class="px-0">
         <h1 class="text-center display-4">
-          S C A L E
+          i n f r a s t r u c t u r e
         </h1>
         <p class="text-center font-italic lead my-2">
-          Caption of the theme here.
+          Coming soon.
         </p>
       </div>
     </div>
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
-
       {% assign rows = site.posts.size | divided_by: 2.0 | ceil %}
       {% for i in (1..rows) %}
         {% assign offset = forloop.index0 | times: 2 %}
@@ -32,13 +31,14 @@ layout: default
               <div class="flex-md-row h-md-250">
                 <div class="py-0 card-body align-items-start">
                   <h3 class="mb-2">
-                    <a class="text-dark" href="{{ post.url | relative_url }}">
+                    <!-- <a class="text-dark article-title" href="{{ post.url | relative_url }}"> -->
+                    <a class="text-dark article-title">
                       {{post.title}}
                     </a>
                   </h3>
-                  <!-- <div class="mb-1 text-muted post-meta">
-                    {{ post.date | date: date_format }}
-                  </div> -->
+                  <div class="mb-1 text-muted post-meta">
+                    {{ post.author }}
+                  </div>
                   <p class="mb-0 card-text mb-auto">
                     {{post.excerpt}}
                   </p>
@@ -53,7 +53,7 @@ layout: default
 
 
 
-  <div class="container theme">
+  <!-- <div class="container theme">
     <div class="jumbotron bg-flow p-3 p-md-5 text-white rounded background-image">
       <div class="px-0">
         <h1 class="text-center display-4">
@@ -64,7 +64,6 @@ layout: default
         </p>
       </div>
     </div>
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
 
       {% assign rows = site.posts.size | divided_by: 2.0 | ceil %}
@@ -76,13 +75,11 @@ layout: default
               <div class="flex-md-row h-md-250">
                 <div class="py-0 card-body align-items-start">
                   <h3 class="mb-2">
-                    <a class="text-dark" href="{{ post.url | relative_url }}">
+                    <a class="text-dark article-title" href="{{ post.url | relative_url }}">
                       {{post.title}}
                     </a>
                   </h3>
-                  <!-- <div class="mb-1 text-muted post-meta">
-                    {{ post.date | date: date_format }}
-                  </div> -->
+
                   <p class="mb-0 card-text mb-auto">
                     {{post.excerpt}}
                   </p>
@@ -93,7 +90,7 @@ layout: default
         </div>
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
 
   {%- endif -%}
 

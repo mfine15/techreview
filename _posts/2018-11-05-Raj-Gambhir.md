@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "Some articles are just so long they deserve a really long title to see if things will break well"
+title: "Old Prejudices, New Tools: India’s WhatsApp Mob Killings"
+author: "Raj Gambhir"
 categories: misc
 ---
+
+Facebook’s connection with ethnic violence is primarily considered in the Myanmar case, but one FB product has more weight in the developing world than any other: WhatsApp. The WhatsApp saga raises deep questions about technology’s potential to exacerbate our worst qualities. What role do companies have in self-regulating and what role do governments have in regulating these companies without endangering civil liberties? And what implications do these dynamics have for the 2019 Indian general elections?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
 

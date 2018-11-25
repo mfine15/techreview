@@ -41,3 +41,8 @@
 .article-title {
 	font-size: 80%;
 }
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}

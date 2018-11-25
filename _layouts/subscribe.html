@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div>
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div>
+      Let us know how to reach you.
+  </div>
+
+  <form action="https://formspree.io/koficj@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Name">
+    <input type="email" name="_replyto" placeholder="Email">
+    <input type="submit" value="Subscribe"">
+  </form>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</div>

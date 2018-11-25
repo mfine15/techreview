@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Our Mission
 
-The Harvard Technology Review (HTR) is a publication that explores the essentially human aspects of technology. HTR exists at the intersection between practice and theory, leveraging insight from both industry and academia. We aim to provide a community where undergraduates from interdisciplinary backgrounds can discuss the forefront of today’s tech scene and its societal implications
+The Harvard Technology Review (HTR) is a publication that explores the essentially human aspects of technology. HTR exists at the intersection between practice and theory, leveraging insight from both industry and academia. We aim to provide a community where undergraduates from interdisciplinary backgrounds can discuss the forefront of today’s tech scene and its societal implications.
 
 ## Who We Are
 
@@ -56,6 +56,8 @@ Avoid Conflicts of Interest
 
 If it is ever the case that a personal relationship affects the content we produce, whether it be because we as students went to our professors for advice or consulted a former or current employer for opinions, we will explicitly acknowledge the nature of that relationship in our piece.
 
-## Diversity Statement
+## Commitment to Diversity
 
-TBD
+The Harvard Technology Review is committed to encouraging diversity within our content and community, as well as our interactions outside of our organization. Diversity includes the thoughts and worldviews, identities and affiliations, aptitudes and aspirations, races and cultures, genders and sexualities, and experiences and economics of who we are as students at Harvard.
+
+Through this engagement with diversity, HTR hopes to create an inherent sense of inclusiveness and justice, and foster a larger understanding of the complicated world in which we live. In our vision, we strive to appreciate fully the importance of diversity not just in technology, but in the academic setting as well.

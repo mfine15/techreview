@@ -44,4 +44,18 @@ Joyce Tian is a sophomore in Leverett House studying Applied Mathematics with a 
 
 ## Ethics Statement
 
-Harvard Technology Review is committed to establishing trust with its audience through disseminating factual information and respectful viewpoints. We value transparency for our viewers and also strongly emphasize increasing diversity in technology -- through the makeup of our club, as well as the topics we explore.
+We at the Harvard Technology Review recognize that the value of our publication is wholly contingent on the relationship that we maintain with our readers. It is founded on the trust we maintain and establish with our readership, which in turn stems from a strong shared conviction around our authenticity, integrity, and independence. We, among other things, adhere to the core guidelines established by the American Society of Magazine Editors (ASME). Within each of these general guidelines, there are a few points that we wish to elaborate on:
+
+The Primary Responsibility of the Editor Is to Serve the Interests of the Reader
+
+Our publication is financed through in kind grants and donations. With that said, we make it explicitly clear to our limited partners that they will have no say in determining or influencing the content we publish. While we may consult them for advice, insights, and networks, their funding stems from a limited partnership in which we reserve all ultimate rights to determine the content of our publication. 
+
+While we are an officially recognized undergraduate organization within Harvard University, our coverage is independent of the institution. We benefit from and greatly appreciate the access we have to the university’s plethora of resources, including but not limited to its outstanding and diverse faculty. However, we do not place undue favor on opinions or academic output from the university; it is neither our place nor function to promote its activities. 
+
+Avoid Conflicts of Interest
+
+If it is ever the case that a personal relationship affects the content we produce, whether it be because we as students went to our professors for advice or consulted a former or current employer for opinions, we will explicitly acknowledge the nature of that relationship in our piece.
+
+## Diversity Statement
+
+TBD

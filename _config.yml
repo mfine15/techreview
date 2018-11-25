@@ -11,17 +11,6 @@ twitter_username: harvardtechnologyreview
 facebook_username: harvardtechnologyreview
 # flickr_username: jekyll
 instagram_username: harvardtechnologyreview
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
 
 show_excerpts: false # set to true to show excerpts on the homepage
 baseurl: ""

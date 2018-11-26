@@ -1,3 +1,9 @@
+/*
+* stylesheet for Tech Review Website
+* made by Rachel Hong
+* rachelhong@college.harvard.edu
+*/
+@import url("https://fonts.googleapis.com/css?family=Arvo|Lato");
 /**
  * Reset some basic elements
  */
@@ -505,3 +511,97 @@ table {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+@media (min-width: 1200px) {
+  header.container {
+    width: 1200px; } }
+header.blog-header {
+  border-bottom: 1px solid #eee; }
+  header.blog-header ul {
+    margin-bottom: 0; }
+  header.blog-header .links a.btn {
+    color: #111;
+    border: none;
+    font-size: 0.9em;
+    border-color: #9b1518;
+    border: none;
+    font-family: "Lato", sans-serif; }
+    header.blog-header .links a.btn:hover {
+      border-bottom: 2px solid #9b1518; }
+
+.header-row {
+  text-align: center; }
+
+h1.blog-header-logo a {
+  text-decoration: none;
+  font-family: "Arvo", serif;
+  color: #111;
+  font-size: 0.8em; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px; } }
+:root {
+  --lightblue: #5BA7D8;
+  --teal: #1E688B;
+  --gold: #1E688B;
+  --lightgray: #E6E6E6;
+  --darkblue: #00133E; }
+
+p {
+  font-family: "Lato", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Arvo", serif; }
+
+.jumbotron h1 {
+  letter-spacing: 0.25em; }
+
+.jumbotron.bg-scale {
+  background-image: url("/static/images/scale.jpg"); }
+
+.jumbotron.bg-flow {
+  background-image: url("/static/images/flow.jpg"); }
+
+.jumbotron.bg-infrastructure {
+  background-image: url("/static/images/infrastructure.jpg"); }
+
+.article-snippet {
+  margin-bottom: 30px; }
+  .article-snippet .article-title {
+    color: #111;
+    font-size: 0.9em; }
+    .article-snippet .article-title:hover {
+      color: #9b1518; }
+  .article-snippet .article-time {
+    text-align: right;
+    color: #515151;
+    padding-right: 1.5em; }
+  .article-snippet .post-meta {
+    margin: 5px 0;
+    color: #111; }
+  .article-snippet p {
+    color: #515151;
+    margin-bottom: 0; }
+  .article-snippet .article-excerpt {
+    max-height: 3.6em;
+    text-overflow: ellipsis; }
+  .article-snippet .byline {
+    color: #9b1518; }
+
+.site-title {
+  font-family: sans-serif; }
+
+.svg-icon {
+  padding: 0; }
+
+.wrapper {
+  max-width: 80%; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }

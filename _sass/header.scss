@@ -1,0 +1,37 @@
+@media (min-width: 1200px) {
+  header.container{
+    width: 1200px;
+  }
+}
+header.blog-header {
+  border-bottom:1px solid $super-light-grey;
+  ul {
+    margin-bottom: 0;
+  }
+  .links a.btn{
+    color: $text-color;
+    border: none;
+    font-size: 0.9em;
+    border-color: $crimson; // prevents flashing black on hover
+    border:none;
+    // padding: 0.375rem 0.25rem;
+    // margin: 0 0.5rem;
+    // border-radius: 0;
+    font-family: $body-font;
+
+    &:hover {
+      border-bottom: 2px solid $crimson;
+    }
+  }
+}
+.header-row {
+  text-align: center;
+}
+h1.blog-header-logo {
+  a {
+    text-decoration: none;
+    font-family: $title-font;
+    color: $text-color;
+    font-size: 0.8em;
+  }
+}

@@ -6,20 +6,21 @@ layout: default
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} {{ content }} {%- if site.posts.size > 0 -%}
-  <link rel="stylesheet" href="{{ "static/css/bootsrap.css" | prepend: site.baseurl}}"/>
-  <link rel="stylesheet" href="{{ "static/css/techreview.css" | prepend: site.baseurl}}"/>
 
   <div class="container theme">
-    <div class="jumbotron bg-infrastructure p-3 p-md-5 text-white rounded background-image">
-      <div class="px-0">
-        <h1 class="text-center display-4">
-          i n f r a s t r u c t u r e
-        </h1>
-        <p class="text-center font-italic lead my-2">
-          Coming soon.
-        </p>
+    <div class="row">
+      <div class="jumbotron col-md-12 bg-infrastructure text-white rounded background-image">
+        <div class="px-0">
+          <h1 class="text-center display-4">
+            infrastructure
+          </h1>
+          <p class="text-center font-italic lead my-2">
+            Coming soon.
+          </p>
+        </div>
       </div>
     </div>
+   
     <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
     <ul class="post-list">
       {% assign rows = site.posts.size | divided_by: 2.0 | ceil %}
@@ -27,19 +28,25 @@ layout: default
         {% assign offset = forloop.index0 | times: 2 %}
         <div class="row">
           {% for post in site.posts limit:2 offset:offset %}
-            <div class="col-6 justify-content-center">
+            <div class="article-snippet col-md-6 justify-content-center">
               <div class="flex-md-row h-md-250">
                 <div class="py-0 card-body align-items-start">
+                  
                   <h3 class="mb-2">
                     <!-- <a class="text-dark article-title" href="{{ post.url | relative_url }}"> -->
-                    <a class="text-dark article-title">
+                    <a href="#" class="article-title">
                       {{post.title}}
                     </a>
                   </h3>
-                  <div class="mb-1 text-muted post-meta">
-                    {{ post.author }}
+                  <div class="row no-gutters post-meta">
+                    <div class="col-md byline">
+                      <span class="text-muted">by</span> {{ post.author }}
+                    </div>
+                    <div class="article-time col-md">
+                      20 min read
+                    </div>
                   </div>
-                  <p class="mb-0 card-text mb-auto">
+                  <p class="mb-0 card-text mb-auto article-excerpt">
                     {{post.excerpt}}
                   </p>
                 </div>
@@ -71,7 +78,7 @@ layout: default
         {% assign offset = forloop.index0 | times: 2 %}
         <div class="row">
           {% for post in site.posts limit:2 offset:offset %}
-            <div class="col-6 justify-content-center">
+            <div class="col-md-6 justify-content-center">
               <div class="flex-md-row h-md-250">
                 <div class="py-0 card-body align-items-start">
                   <h3 class="mb-2">

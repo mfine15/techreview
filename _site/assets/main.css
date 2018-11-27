@@ -538,6 +538,12 @@ h1.blog-header-logo a {
   color: #111;
   font-size: 0.8em; }
 
+@media (max-width: 960px) {
+  .jumbotron h1 {
+    font-size: 2em; } }
+main.page-content {
+  padding-top: 10px; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 960px; } }

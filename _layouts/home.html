@@ -9,7 +9,7 @@ layout: default
 
   <div class="container theme">
     <div class="row">
-      <div class="jumbotron col-md-12 bg-infrastructure text-white rounded background-image">
+      <div class="jumbotron col-md-12 bg-infrastructure text-white background-image">
         <div class="px-0">
           <h1 class="text-center display-4">
             infrastructure
@@ -28,29 +28,31 @@ layout: default
         {% assign offset = forloop.index0 | times: 2 %}
         <div class="row">
           {% for post in site.posts limit:2 offset:offset %}
-            <div class="article-snippet col-md-6 justify-content-center">
-              <div class="flex-md-row h-md-250">
-                <div class="py-0 card-body align-items-start">
-                  
-                  <h3 class="mb-2">
-                    <!-- <a class="text-dark article-title" href="{{ post.url | relative_url }}"> -->
-                    <a href="#" class="article-title">
-                      {{post.title}}
-                    </a>
-                  </h3>
-                  <div class="row no-gutters post-meta">
-                    <div class="col-md byline">
-                      <span class="text-muted">by</span> {{ post.author }}
+            
+              <div class="article-snippet col-md-6 justify-content-center">
+                <div class="flex-md-row h-md-250">
+                  <div class="py-0 card-body align-items-start">
+                    
+                    <h3 class="mb-2">
+                      <!-- <a class="text-dark article-title" href="{{ post.url | relative_url }}"> -->
+                      <a href="#" class="article-title">
+                        {{post.title}}
+                      </a>
+                    </h3>
+                    <div class="row no-gutters post-meta">
+                      <div class="col-md byline">
+                        <span class="text-muted">by</span> {{ post.author }}
+                      </div>
+                      <div class="article-time col-md">
+                        20 min read
+                      </div>
                     </div>
-                    <div class="article-time col-md">
-                      20 min read
-                    </div>
+                    <p class="mb-0 card-text mb-auto article-excerpt">
+                      {{post.excerpt}}
+                    </p>
                   </div>
-                  <p class="mb-0 card-text mb-auto article-excerpt">
-                    {{post.excerpt}}
-                  </p>
                 </div>
-              </div>
+              </a>  
             </div>
           {% endfor %}
         </div>
